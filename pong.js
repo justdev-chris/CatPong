@@ -1,5 +1,6 @@
-const canvas = document.getElementById("pong");
-const ctx = canvas.getContext("2d");
+window.onload = function() {
+  const canvas = document.getElementById("pong");
+  const ctx = canvas.getContext("2d");
 
 const paddleWidth = 10, paddleHeight = 100, ballSize = 40;
 const player = { x: 0, y: canvas.height/2 - paddleHeight/2 };
@@ -71,4 +72,6 @@ function gameLoop() {
   requestAnimationFrame(gameLoop);
 }
 
-gameLoop();
+gameLoop(
+
+};
