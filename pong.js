@@ -1,5 +1,5 @@
 window.onload = function() {
-  const canvas = document.getElementById("pong");
+  const canvas = document.getElementById("pongCanvas");
   const ctx = canvas.getContext("2d");
 
   const paddleWidth = 10, paddleHeight = 100, ballSize = 40;
