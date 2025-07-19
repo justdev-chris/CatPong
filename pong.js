@@ -1,4 +1,4 @@
-// Simple Pong Game with 🐱 as the ball
+// handles game logic lol
 
 const canvas = document.getElementById("pong");
 const ctx = canvas.getContext("2d");
